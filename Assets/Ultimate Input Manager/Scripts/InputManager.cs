@@ -301,87 +301,7 @@ public enum GamepadKey
     GP4Button16 = 426,
     GP4Button17 = 427,
     GP4Button18 = 428,
-    GP4Button19 = 429,
-    GP5A = 430,
-    GP5B = 431,
-    GP5X = 432,
-    GP5Y = 433,
-    GP5L1 = 434,
-    GP5R1 = 435,
-    GP5Start = 436,
-    GP5Back = 437,
-    GP5TBSL = 438,
-    GP5TBSR = 439,
-    GP5Button10 = 440,
-    GP5Button11 = 441,
-    GP5Button12 = 442,
-    GP5Button13 = 443,
-    GP5Button14 = 444,
-    GP5Button15 = 445,
-    GP5Button16 = 446,
-    GP5Button17 = 447,
-    GP5Button18 = 448,
-    GP5Button19 = 449,
-    GP6A = 450,
-    GP6B = 451,
-    GP6X = 452,
-    GP6Y = 453,
-    GP6L1 = 454,
-    GP6R1 = 455,
-    GP6Start = 456,
-    GP6Back = 457,
-    GP6TBSL = 458,
-    GP6TBSR = 459,
-    GP6Button10 = 460,
-    GP6Button11 = 461,
-    GP6Button12 = 462,
-    GP6Button13 = 463,
-    GP6Button14 = 464,
-    GP6Button15 = 465,
-    GP6Button16 = 466,
-    GP6Button17 = 467,
-    GP6Button18 = 468,
-    GP6Button19 = 469,
-    GP7A = 470,
-    GP7B = 471,
-    GP7X = 472,
-    GP7Y = 473,
-    GP7L1 = 474,
-    GP7R1 = 475,
-    GP7Start = 476,
-    GP7Back = 477,
-    GP7TBSL = 478,
-    GP7TBSR = 479,
-    GP7Button10 = 480,
-    GP7Button11 = 481,
-    GP7Button12 = 482,
-    GP7Button13 = 483,
-    GP7Button14 = 484,
-    GP7Button15 = 485,
-    GP7Button16 = 486,
-    GP7Button17 = 487,
-    GP7Button18 = 488,
-    GP7Button19 = 489,
-    GP8A = 490,
-    GP8B = 491,
-    GP8X = 492,
-    GP8Y = 493,
-    GP8L1 = 494,
-    GP8R1 = 495,
-    GP8Start = 496,
-    GP8Back = 497,
-    GP8TBSL = 498,
-    GP8TBSR = 499,
-    GP8Button10 = 500,
-    GP8Button11 = 501,
-    GP8Button12 = 502,
-    GP8Button13 = 503,
-    GP8Button14 = 504,
-    GP8Button15 = 505,
-    GP8Button16 = 506,
-    GP8Button17 = 507,
-    GP8Button18 = 508,
-    GP8Button19 = 509
+    GP4Button19 = 429
 }
 
 public enum KeyboardKey
@@ -463,6 +383,7 @@ public enum KeyboardKey
     RightCurlyBracket = 125,
     Tilde = 126,
     Delete = 127,
+    QuoteMark = 160,
     Keypad0 = 256,
     Keypad1 = 257,
     Keypad2 = 258,
@@ -695,6 +616,7 @@ public enum InputKey
     RightCurlyBracket = 125,
     Tilde = 126,
     Delete = 127,
+    QuoteMark = 160,
     Keypad0 = 256,
     Keypad1 = 257,
     Keypad2 = 258,
@@ -865,87 +787,7 @@ public enum InputKey
     GP4Button16 = 426,
     GP4Button17 = 427,
     GP4Button18 = 428,
-    GP4Button19 = 429,
-    GP5A = 430,
-    GP5B = 431,
-    GP5X = 432,
-    GP5Y = 433,
-    GP5L1 = 434,
-    GP5R1 = 435,
-    GP5Start = 436,
-    GP5Back = 437,
-    GP5TBSL = 438,
-    GP5TBSR = 439,
-    GP5Button10 = 440,
-    GP5Button11 = 441,
-    GP5Button12 = 442,
-    GP5Button13 = 443,
-    GP5Button14 = 444,
-    GP5Button15 = 445,
-    GP5Button16 = 446,
-    GP5Button17 = 447,
-    GP5Button18 = 448,
-    GP5Button19 = 449,
-    GP6A = 450,
-    GP6B = 451,
-    GP6X = 452,
-    GP6Y = 453,
-    GP6L1 = 454,
-    GP6R1 = 455,
-    GP6Start = 456,
-    GP6Back = 457,
-    GP6TBSL = 458,
-    GP6TBSR = 459,
-    GP6Button10 = 460,
-    GP6Button11 = 461,
-    GP6Button12 = 462,
-    GP6Button13 = 463,
-    GP6Button14 = 464,
-    GP6Button15 = 465,
-    GP6Button16 = 466,
-    GP6Button17 = 467,
-    GP6Button18 = 468,
-    GP6Button19 = 469,
-    GP7A = 470,
-    GP7B = 471,
-    GP7X = 472,
-    GP7Y = 473,
-    GP7L1 = 474,
-    GP7R1 = 475,
-    GP7Start = 476,
-    GP7Back = 477,
-    GP7TBSL = 478,
-    GP7TBSR = 479,
-    GP7Button10 = 480,
-    GP7Button11 = 481,
-    GP7Button12 = 482,
-    GP7Button13 = 483,
-    GP7Button14 = 484,
-    GP7Button15 = 485,
-    GP7Button16 = 486,
-    GP7Button17 = 487,
-    GP7Button18 = 488,
-    GP7Button19 = 489,
-    GP8A = 490,
-    GP8B = 491,
-    GP8X = 492,
-    GP8Y = 493,
-    GP8L1 = 494,
-    GP8R1 = 495,
-    GP8Start = 496,
-    GP8Back = 497,
-    GP8TBSL = 498,
-    GP8TBSR = 499,
-    GP8Button10 = 500,
-    GP8Button11 = 501,
-    GP8Button12 = 502,
-    GP8Button13 = 503,
-    GP8Button14 = 504,
-    GP8Button15 = 505,
-    GP8Button16 = 506,
-    GP8Button17 = 507,
-    GP8Button18 = 508,
-    GP8Button19 = 509
+    GP4Button19 = 429    
 }
 
 #endregion
@@ -973,138 +815,15 @@ public static class InputManager
 
     #region Require
 
-    #region Save
-
-    private static class Save
-    {
-        /// <summary>
-        /// Convert any Serializable object in JSON string.
-        /// </summary>
-        /// <param name="obj">The object to serialize</param>
-        /// <returns> A string represent the object in parameter</returns>
-        public static string ConvertObjectToJSONString(object obj, bool withIndentation = false) => JsonUtility.ToJson(obj, withIndentation);
-        /// <summary>
-        /// Convert any string reprensent a Serializable object to the object.
-        /// </summary>
-        /// <typeparam name="T">The type of the object return</typeparam>
-        /// <param name="JSONString">The string represent the object return</param>
-        /// <returns> A Serializable object describe by the string in parameter</returns>
-        public static T ConvertJSONStringToObject<T>(string JSONString) => JsonUtility.FromJson<T>(JSONString);
-
-        /// <summary>
-        /// Write in the customer machine a file with the object inside
-        /// </summary>
-        /// <param name="objToWrite">The object to save</param>
-        /// <param name="filename">the save path, begining to the game's folder</param>
-        /// <returns> true if the save complete successfully, false overwise</returns>
-        public static bool WriteJSONData(object objToWrite, string fileName, bool withIndentation = false)
-        {
-            try
-            {
-                string s = ConvertObjectToJSONString(objToWrite, withIndentation);
-                if (s == "{}")
-                    return false;
-                File.WriteAllText(Application.dataPath + fileName, s);
-            }
-            catch
-            {
-                return false;
-            }
-            return true;
-        }
-
-        /// <summary>
-        /// Write in the customer machine a file with the object inside asynchronously
-        /// </summary>
-        /// <param name="objToWrite">The object to save</param>
-        /// <param name="filename">the save path, begining to the game's folder</param>
-        /// <param name="callback">The callback when the function end</param>
-        /// <returns> true if the save complete successfully, false overwise</returns>
-        public static async Task<bool> WriteJSONDataAsync(object objToWrite, string fileName, Action<bool> callback, bool withIndentation = false)
-        {
-            try
-            {
-                string s = ConvertObjectToJSONString(objToWrite, withIndentation);
-                if (s == "{}")
-                {
-                    callback.Invoke(false);
-                    return false;
-                }
-                await File.WriteAllTextAsync(Application.dataPath + fileName, s);
-                callback.Invoke(true);
-            }
-            catch
-            {
-                callback.Invoke(false);
-                return false;
-            }
-            return true;
-        }
-
-        /// <typeparam name="T">The object to read's type</typeparam>
-        /// <param name="fileName">The path of the file, begining to the game's folder</param>
-        /// <param name="objRead"></param>
-        /// <returns> true if the function complete successfully, false overwise</returns>
-        public static bool ReadJSONData<T>(string fileName, out T objRead)
-        {
-            try
-            {
-                string jsonString = File.ReadAllText(Application.dataPath + fileName);
-                if (jsonString == "{}")
-                {
-                    objRead = default(T);
-                    return false;
-                }
-                objRead = ConvertJSONStringToObject<T>(jsonString);
-                return true;
-            }
-            catch (Exception)
-            {
-                objRead = default(T);
-                return false;
-            }
-        }
-
-        /// <typeparam name="T">The object to read's type</typeparam>
-        /// <param name="fileName">The path of the file, begining to the game's folder</param>
-        /// <param name="objRead"></param>
-        /// <returns> true if the function complete successfully, false overwise</returns>
-        public static async Task<bool> ReadJSONDataAsync<T>(string fileName, Action<bool, T> callback)
-        {
-            try
-            {
-                string jsonString = await File.ReadAllTextAsync(Application.dataPath + fileName);
-                if (jsonString == "{}")
-                {
-                    callback.Invoke(false, default(T));
-                    return false;
-                }
-                callback.Invoke(true, ConvertJSONStringToObject<T>(jsonString));
-                return true;
-            }
-            catch (Exception)
-            {
-                callback.Invoke(false, default(T));
-                return false;
-            }
-        }
-    }
-
-    #endregion
-
     private static GamePadState newGP1State, oldGP1State;
     private static GamePadState newGP2State, oldGP2State;
     private static GamePadState newGP3State, oldGP3State;
     private static GamePadState newGP4State, oldGP4State;
 
     private static Vector2 newGP1Triggers, newGP2Triggers, newGP3Triggers, newGP4Triggers;
-    private static Vector2 oldGP1RightStickPosition, oldGP2RightStickPosition, oldGP3RightStickPosition, oldGP4RightStickPosition;
-    private static Vector2 oldGP1LeftStickPosition, oldGP2LeftStickPosition, oldGP3LeftStickPosition, oldGP4LeftStickPosition;
     private static Vector2 newGP1RightStickPosition, newGP2RightStickPosition, newGP3RightStickPosition, newGP4RightStickPosition;
     private static Vector2 newGP1LeftStickPosition, newGP2LeftStickPosition, newGP3LeftStickPosition, newGP4LeftStickPosition;
 
-    //Trigger gauche/droite : si vraiXGauche/vraiXDroit <= deadZone.x/y => xGauche/xDroit = 0, si vraiXGauche/vraiXDroit >= 1 - deadZone.x/y => xGauche/xDroit = 1, sinon xGauche/xDroit = vraiXGauche/vraiXDroit
-    //ThumbStick : si vraiPos.x/y€[-deadZone.x/y, deadZone.x/y] => pos.x/y = 0, vraiPos.x/y€[-1, 1-deadZone.x/y] U [1 - deadZone.x/y, 1] => pos.x/y = (vraiPos.x/y).Sign() * 1, sinon pos.x/y = vraiPos.x/y
     private static Vector2 _GP1RightThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP1LeftThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP1TriggersDeadZone = new Vector2(0.1f, 0.1f);
     private static Vector2 _GP2RightThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP2LeftThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP2TriggersDeadZone = new Vector2(0.1f, 0.1f);
     private static Vector2 _GP3RightThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP3LeftThumbStickDeadZone = new Vector2(0.1f, 0.1f), _GP3TriggersDeadZone = new Vector2(0.1f, 0.1f);
@@ -1132,8 +851,8 @@ public static class InputManager
 
     private static readonly string[] letters = new string[36] { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
-    private static readonly int[] keyCodeInt = { 0,8,9,12,13,19,27,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,108,110,111,112,113,114,115,116,
-        117,118,119,120,121,122,123,124,125,126,127,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,300,301,302,303,304,305,306,307,308,
+    private static readonly int[] keyCodeInt = { 0,8,9,12,13,19,27,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,
+        117,118,119,120,121,122,123,124,125,126,127,160,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,300,301,302,303,304,305,306,307,308,
         309,310,311,312,313,314,315,316,317,318,319,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,
         373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,
         434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,
@@ -1161,9 +880,9 @@ public static class InputManager
 
     #region GetInputKey Down/Up/Pressed delegate
 
-    private static readonly Func<bool>[] GetInputKeyDownDelegate = new Func<bool>[71]
+    private static readonly Func<bool>[] GetInputKeyDownDelegate = new Func<bool>[76]
     {
-        () => { return false; },
+        () => false,
         () => { return oldGP1State.Triggers.Right <= _analogicButtonDownValue && newGP1State.Triggers.Right > _analogicButtonDownValue; },
         () => { return oldGP1State.Triggers.Left <= _analogicButtonDownValue && newGP1State.Triggers.Left > _analogicButtonDownValue; },
         () => { return oldGP1State.DPad.Up == ButtonState.Released && newGP1State.DPad.Up == ButtonState.Pressed; },
@@ -1178,6 +897,7 @@ public static class InputManager
         () => { return oldGP1State.ThumbSticks.Left.Y >= -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return oldGP1State.ThumbSticks.Left.X <= _analogicButtonDownValue && newGP1State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return oldGP1State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return oldGP1State.Buttons.Guide == ButtonState.Released && newGP1State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return oldGP2State.Triggers.Right <= _analogicButtonDownValue && newGP2State.Triggers.Right > _analogicButtonDownValue; },
         () => { return oldGP2State.Triggers.Left <= _analogicButtonDownValue && newGP2State.Triggers.Left > _analogicButtonDownValue; },
@@ -1193,6 +913,7 @@ public static class InputManager
         () => { return oldGP2State.ThumbSticks.Left.Y >= -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return oldGP2State.ThumbSticks.Left.X <= _analogicButtonDownValue && newGP2State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return oldGP2State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return oldGP2State.Buttons.Guide == ButtonState.Released && newGP2State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return oldGP3State.Triggers.Right <= _analogicButtonDownValue && newGP3State.Triggers.Right > _analogicButtonDownValue; },
         () => { return oldGP3State.Triggers.Left <= _analogicButtonDownValue && newGP3State.Triggers.Left > _analogicButtonDownValue; },
@@ -1208,6 +929,7 @@ public static class InputManager
         () => { return oldGP3State.ThumbSticks.Left.Y >= -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return oldGP3State.ThumbSticks.Left.X <= _analogicButtonDownValue && newGP3State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return oldGP3State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return oldGP3State.Buttons.Guide == ButtonState.Released && newGP3State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return oldGP4State.Triggers.Right <= _analogicButtonDownValue && newGP4State.Triggers.Right > _analogicButtonDownValue; },
         () => { return oldGP4State.Triggers.Left <= _analogicButtonDownValue && newGP4State.Triggers.Left > _analogicButtonDownValue; },
@@ -1223,6 +945,7 @@ public static class InputManager
         () => { return oldGP4State.ThumbSticks.Left.Y >= -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return oldGP4State.ThumbSticks.Left.X <= _analogicButtonDownValue && newGP4State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return oldGP4State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return oldGP4State.Buttons.Guide == ButtonState.Released && newGP4State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return (oldGP1State.Triggers.Right <= _analogicButtonDownValue && newGP1State.Triggers.Right > _analogicButtonDownValue)
             || (oldGP2State.Triggers.Right <= _analogicButtonDownValue && newGP2State.Triggers.Right > _analogicButtonDownValue)
@@ -1279,10 +1002,14 @@ public static class InputManager
         () => { return (oldGP1State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue)
             || (oldGP2State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue)
             || (oldGP3State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue)
-            || (oldGP4State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue); }
+            || (oldGP4State.ThumbSticks.Left.X >= -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue); },
+        () => { return (oldGP1State.Buttons.Guide == ButtonState.Released && newGP1State.Buttons.Guide == ButtonState.Pressed) ||
+            (oldGP2State.Buttons.Guide == ButtonState.Released && newGP2State.Buttons.Guide == ButtonState.Pressed) ||
+            (oldGP3State.Buttons.Guide == ButtonState.Released && newGP3State.Buttons.Guide == ButtonState.Pressed) ||
+            (oldGP4State.Buttons.Guide == ButtonState.Released && newGP4State.Buttons.Guide == ButtonState.Pressed); }
     };
 
-    private static readonly Func<bool>[] GetInputKeyUpDelegate = new Func<bool>[71]
+    private static readonly Func<bool>[] GetInputKeyUpDelegate = new Func<bool>[76]
     {
         () => { return false; },
         () => { return oldGP1State.Triggers.Right > _analogicButtonDownValue && newGP1State.Triggers.Right <= _analogicButtonDownValue; },
@@ -1299,6 +1026,7 @@ public static class InputManager
         () => { return oldGP1State.ThumbSticks.Left.Y < -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.Y > -_analogicButtonDownValue; },
         () => { return oldGP1State.ThumbSticks.Left.X > _analogicButtonDownValue && newGP1State.ThumbSticks.Left.X < _analogicButtonDownValue; },
         () => { return oldGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.X > -_analogicButtonDownValue; },
+        () => { return oldGP1State.Buttons.Guide == ButtonState.Pressed && newGP1State.Buttons.Guide == ButtonState.Released; },
 
         () => { return oldGP2State.Triggers.Right > _analogicButtonDownValue && newGP2State.Triggers.Right <= _analogicButtonDownValue; },
         () => { return oldGP2State.Triggers.Left > _analogicButtonDownValue && newGP2State.Triggers.Left <= _analogicButtonDownValue; },
@@ -1314,6 +1042,7 @@ public static class InputManager
         () => { return oldGP2State.ThumbSticks.Left.Y < -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.Y >= -_analogicButtonDownValue; },
         () => { return oldGP2State.ThumbSticks.Left.X > _analogicButtonDownValue && newGP2State.ThumbSticks.Left.X <= _analogicButtonDownValue; },
         () => { return oldGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.X >= -_analogicButtonDownValue; },
+        () => { return oldGP2State.Buttons.Guide == ButtonState.Pressed && newGP2State.Buttons.Guide == ButtonState.Released; },
 
         () => { return oldGP3State.Triggers.Right > _analogicButtonDownValue && newGP3State.Triggers.Right <= _analogicButtonDownValue; },
         () => { return oldGP3State.Triggers.Left > _analogicButtonDownValue && newGP3State.Triggers.Left <= _analogicButtonDownValue; },
@@ -1329,6 +1058,7 @@ public static class InputManager
         () => { return oldGP3State.ThumbSticks.Left.Y < -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.Y > -_analogicButtonDownValue; },
         () => { return oldGP3State.ThumbSticks.Left.X > _analogicButtonDownValue && newGP3State.ThumbSticks.Left.X < _analogicButtonDownValue; },
         () => { return oldGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.X > -_analogicButtonDownValue; },
+        () => { return oldGP3State.Buttons.Guide == ButtonState.Pressed && newGP3State.Buttons.Guide == ButtonState.Released; },
 
         () => { return oldGP4State.Triggers.Right > _analogicButtonDownValue && newGP4State.Triggers.Right <= _analogicButtonDownValue; },
         () => { return oldGP4State.Triggers.Left > _analogicButtonDownValue && newGP4State.Triggers.Left <= _analogicButtonDownValue; },
@@ -1344,6 +1074,7 @@ public static class InputManager
         () => { return oldGP4State.ThumbSticks.Left.Y < -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.Y > -_analogicButtonDownValue; },
         () => { return oldGP4State.ThumbSticks.Left.X > _analogicButtonDownValue && newGP4State.ThumbSticks.Left.X < _analogicButtonDownValue; },
         () => { return oldGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X > -_analogicButtonDownValue; },
+        () => { return oldGP4State.Buttons.Guide == ButtonState.Pressed && newGP4State.Buttons.Guide == ButtonState.Released; },
 
         () => { return (oldGP1State.Triggers.Right > _analogicButtonDownValue && newGP1State.Triggers.Right <= _analogicButtonDownValue)
             || (oldGP2State.Triggers.Right > _analogicButtonDownValue && newGP2State.Triggers.Right <= _analogicButtonDownValue)
@@ -1400,10 +1131,14 @@ public static class InputManager
         () => { return (oldGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP1State.ThumbSticks.Left.X >= -_analogicButtonDownValue)
             || (oldGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP2State.ThumbSticks.Left.X >= -_analogicButtonDownValue)
             || (oldGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP3State.ThumbSticks.Left.X >= -_analogicButtonDownValue)
-            || (oldGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X >= -_analogicButtonDownValue); }
+            || (oldGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue && newGP4State.ThumbSticks.Left.X >= -_analogicButtonDownValue); },
+        () => { return (oldGP1State.Buttons.Guide == ButtonState.Pressed && newGP1State.Buttons.Guide == ButtonState.Released) ||
+            (oldGP2State.Buttons.Guide == ButtonState.Pressed && newGP2State.Buttons.Guide == ButtonState.Released) ||
+            (oldGP3State.Buttons.Guide == ButtonState.Pressed && newGP3State.Buttons.Guide == ButtonState.Released) ||
+            (oldGP4State.Buttons.Guide == ButtonState.Pressed && newGP4State.Buttons.Guide == ButtonState.Released); }
     };
 
-    private static readonly Func<bool>[] GetInputKeyPressedDelegate = new Func<bool>[71]
+    private static readonly Func<bool>[] GetInputKeyPressedDelegate = new Func<bool>[76]
     {
         () => { return false; },
         () => { return newGP1State.Triggers.Right > _analogicButtonDownValue; },
@@ -1420,6 +1155,7 @@ public static class InputManager
         () => { return newGP1State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return newGP1State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return newGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return newGP1State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return newGP2State.Triggers.Right > _analogicButtonDownValue; },
         () => { return newGP2State.Triggers.Left > _analogicButtonDownValue; },
@@ -1435,6 +1171,7 @@ public static class InputManager
         () => { return newGP2State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return newGP2State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return newGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return newGP2State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return newGP3State.Triggers.Right > _analogicButtonDownValue; },
         () => { return newGP3State.Triggers.Left > _analogicButtonDownValue; },
@@ -1450,6 +1187,7 @@ public static class InputManager
         () => { return newGP3State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return newGP3State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return newGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return newGP3State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return newGP4State.Triggers.Right > _analogicButtonDownValue; },
         () => { return newGP4State.Triggers.Left > _analogicButtonDownValue; },
@@ -1465,6 +1203,7 @@ public static class InputManager
         () => { return newGP4State.ThumbSticks.Left.Y < -_analogicButtonDownValue; },
         () => { return newGP4State.ThumbSticks.Left.X > _analogicButtonDownValue; },
         () => { return newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue; },
+        () => { return newGP3State.Buttons.Guide == ButtonState.Pressed; },
 
         () => { return (newGP1State.Triggers.Right > _analogicButtonDownValue)
             || (newGP2State.Triggers.Right > _analogicButtonDownValue)
@@ -1521,7 +1260,11 @@ public static class InputManager
         () => { return (newGP1State.ThumbSticks.Left.X < -_analogicButtonDownValue)
             || (newGP2State.ThumbSticks.Left.X < -_analogicButtonDownValue)
             || (newGP3State.ThumbSticks.Left.X < -_analogicButtonDownValue)
-            || (newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue); }
+            || (newGP4State.ThumbSticks.Left.X < -_analogicButtonDownValue); },
+        () => { return newGP1State.Buttons.Guide == ButtonState.Pressed ||
+            newGP2State.Buttons.Guide == ButtonState.Pressed ||
+            newGP3State.Buttons.Guide == ButtonState.Pressed ||
+            newGP4State.Buttons.Guide == ButtonState.Pressed; }
     };
 
     #endregion
@@ -1592,6 +1335,8 @@ public static class InputManager
             controlsDic.Clear();
         }
 
+        public bool IsEmpty() => controlsDic.Count <= 0;
+
         public void AddAction(string action, int key)
         {
             if (controlsDic.ContainsKey(action))
@@ -1641,35 +1386,6 @@ public static class InputManager
             return controlsDic.GetEnumerator();
         }
 
-        private GeneralGamepadKey ConvertGamepadKeyToGeneralKey(GamepadKey key)
-        {
-            int k = (int)key;
-            if ((0 <= k && k <= 349) || (-70 <= k && k <= -57))
-                return (GeneralGamepadKey)k;
-            if (k < 0)
-                return (GeneralGamepadKey)(k + ((k + 57) / 14) * 14);
-            return (GeneralGamepadKey)(k - ((k - 349) / 20) * 20);
-        }
-
-        private static Dictionary<ControllerType, int> CalculateOffsetNegKey = new Dictionary<ControllerType, int>
-        {
-            { ControllerType.Gamepad1, 56 }, { ControllerType.Gamepad2, 42 }, { ControllerType.Gamepad3, 28 }, { ControllerType.Gamepad4, 14 }
-        };
-        private static Dictionary<ControllerType, int> CalculateOffsetPosKey = new Dictionary<ControllerType, int>
-        {
-            { ControllerType.Gamepad1, 20 }, { ControllerType.Gamepad2, 40 }, { ControllerType.Gamepad3, 60 }, { ControllerType.Gamepad4, 80 }
-        };
-
-        private int ConvertGeneralKeyToGamepadKey(int key, ControllerType gamepadIndex)
-        {
-            if ((-56 <= key && key <= 0) || key >= 350)
-                return key;
-
-            if (key < 0)
-                return key + CalculateOffsetNegKey[gamepadIndex];
-            return key + CalculateOffsetPosKey[gamepadIndex];
-        }
-
         public InputData ToGeneralGamepadInputData()
         {
             InputData res = new InputData();
@@ -1696,7 +1412,7 @@ public static class InputManager
                 {
                     if (IsGamepadKey((InputKey)key))
                     {
-                        res.AddAction(actions[i], ConvertGeneralKeyToGamepadKey(key, gamepadIndex));
+                        res.AddAction(actions[i], (int)ConvertGeneralKeyToGamepadKey((GamepadKey)key, gamepadIndex));
                     }
                 }
             }
@@ -1789,6 +1505,65 @@ public static class InputManager
 
     #endregion
 
+    #region Key Convertion
+
+    public static GeneralGamepadKey ConvertGamepadKeyToGeneralKey(GamepadKey key)
+    {
+        int k = (int)key;
+        if ((0 <= k && k <= 349) || (-75 <= k && k <= -61))
+            return (GeneralGamepadKey)k;
+        if (k < 0)
+            return (GeneralGamepadKey)(k - ((k + 75) / 15) * 15);
+        return (GeneralGamepadKey)(k - ((k - 330) / 20) * 20);
+    }
+
+    private static Dictionary<ControllerType, int> CalculateOffsetNegKey = new Dictionary<ControllerType, int>
+    {
+        { ControllerType.Gamepad1, 60 }, { ControllerType.Gamepad2, 45 }, { ControllerType.Gamepad3, 30 }, { ControllerType.Gamepad4, 15 }
+    };
+
+    private static Dictionary<ControllerType, int> CalculateOffsetPosKey = new Dictionary<ControllerType, int>
+    {
+        { ControllerType.Gamepad1, 20 }, { ControllerType.Gamepad2, 40 }, { ControllerType.Gamepad3, 60 }, { ControllerType.Gamepad4, 80 }
+    };
+
+    public static GamepadKey ConvertGeneralKeyToGamepadKey(GamepadKey key, ControllerType gamepadIndex)
+    {
+        int k = (int)key;
+        if ((-60 <= k && k <= 0) || k >= 350)
+            return key;
+
+        if (k < 0)
+            return (GamepadKey)(k + CalculateOffsetNegKey[gamepadIndex]);
+        return (GamepadKey)(k + CalculateOffsetPosKey[gamepadIndex]);
+    }
+
+    private static InputKey ConvertToGeneralGamepadKey(InputKey key)
+    {
+        int key2 = (int)key;
+        if (key2 < 0 && key2 >= -56)
+            return (InputKey)(key2 - ((key2 / 14) * 14));
+        if (key2 >= 350)
+            return (InputKey)(key2 - (((key2 - 350) / 20) * 20));
+        return key;
+    }
+
+    public static bool IsGamepadKey(InputKey key)
+    {
+        int key2 = (int)key;
+        return key2 <= 0 || key2 >= 330;
+    }
+
+    public static bool IsKeyboardKey(InputKey key) => !IsGamepadKey(key) || key == InputKey.None;
+
+    public static bool IsGeneralGamepadKey(InputKey key)
+    {
+        int k = (int)key;
+        return k <= -57 || (k >= 0 && k <= 349);
+    }
+
+    #endregion
+
     #region GamePad only
 
     #region SetVibration
@@ -1870,18 +1645,6 @@ public static class InputManager
     #endregion
 
     #region SetStickPosition
-
-    private static void SetOldGamepadSticksAndTriggersPositions()
-    {
-        oldGP1RightStickPosition = newGP1RightStickPosition;
-        oldGP1LeftStickPosition = newGP1LeftStickPosition;
-        oldGP2RightStickPosition = newGP2RightStickPosition;
-        oldGP2LeftStickPosition = newGP2LeftStickPosition;
-        oldGP3RightStickPosition = newGP3RightStickPosition;
-        oldGP3LeftStickPosition = newGP3LeftStickPosition;
-        oldGP4RightStickPosition = newGP4RightStickPosition;
-        oldGP4LeftStickPosition = newGP4LeftStickPosition;
-    }
 
     private static void SetNewGamepadSticksAndTriggersPositions()
     {
@@ -2595,43 +2358,192 @@ public static class InputManager
 
     #region Add/Replace/Remove action
 
-    public static void AddInputAction(string action, KeyboardKey key)
+    public static void AddInputAction(string action, KeyboardKey key, bool defaultConfig = false)
     {
-        kbKeys.AddAction(action, (int)key);
+        if(defaultConfig)
+            defaultKBKeys.AddAction(action, (int)key);
+        else
+            kbKeys.AddAction(action, (int)key);
     }
 
-    public static void AddInputsAction(string action, KeyboardKey[] keys)
+    public static void AddInputsAction(string action, KeyboardKey[] keys, bool defaultConfig = false)
     {
         foreach (KeyboardKey key in keys)
         {
-            AddInputAction(action, key);
+            AddInputAction(action, key, defaultConfig);
         }
     }
 
-    public static void AddInputAction(string action, GamepadKey key)
+    public static void AddInputsActions(string[] actions, KeyboardKey[] keys, bool defaultConfig = false)
     {
-        gpKeys.AddAction(action, (int)key);
+        if(actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], defaultConfig);
+        }
     }
 
-    public static void AddInputsAction(string action, GamepadKey[] keys)
+    public static void AddInputAction(string action, GamepadKey key, bool defaultConfig = false)
+    {
+        if (defaultConfig)
+            defaultGPKeys.AddAction(action, (int)key);
+        else
+            gpKeys.AddAction(action, (int)key);
+    }
+
+    public static void AddInputsAction(string action, GamepadKey[] keys, bool defaultConfig = false)
     {
         foreach (GamepadKey key in keys)
         {
-            AddInputAction(action, key);
+            AddInputAction(action, key, defaultConfig);
         }
     }
 
-    public static void AddInputAction(string action, GeneralGamepadKey key)
+    public static void AddInputsActions(string[] actions, GamepadKey[] keys, bool defaultConfig = false)
     {
-        gpKeys.AddAction(action, (int)key);
-    }
-
-    public static void AddInputsAction(string action, GeneralGamepadKey[] keys)
-    {
-        foreach (GamepadKey key in keys)
+        if (actions.Length != keys.Length)
         {
-            AddInputAction(action, key);
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
         }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], defaultConfig);
+        }
+    }
+
+    public static void AddInputAction(string action, GeneralGamepadKey key, bool defaultConfig = false)
+    {
+        if (defaultConfig)
+            defaultGPKeys.AddAction(action, (int)key);
+        else
+            gpKeys.AddAction(action, (int)key);
+    }
+
+    public static void AddInputsAction(string action, GeneralGamepadKey[] keys, bool defaultConfig = false)
+    {
+        foreach (GeneralGamepadKey key in keys)
+        {
+            AddInputAction(action, key, defaultConfig);
+        }
+    }
+
+    public static void AddInputsActions(string[] actions, GeneralGamepadKey[] keys, bool defaultConfig = false)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], defaultConfig);
+        }
+    }
+
+    public static void AddInputAction(string action, InputKey key, BaseController controller, bool defaultConfig = false)
+    {
+        InputData kb = defaultConfig ? defaultKBKeys : kbKeys;
+        InputData gp = defaultConfig ? defaultGPKeys : gpKeys;
+
+        if (controller == BaseController.Keyboard)
+        {
+            if (IsKeyboardKey(key))
+                kb.AddAction(action, (int)key);
+            else
+                Debug.LogWarning("Can't add " + KeyToString(key) + " to a keyboard controller because it's not a keyboard key!");
+            return;
+        }
+        if (controller == BaseController.Gamepad)
+        {
+            if (IsGamepadKey(key))
+                gp.AddAction(action, (int)ConvertToGeneralGamepadKey(key));
+            else
+                Debug.LogWarning("Can't add " + KeyToString(key) + " to a gamepad controller because it's not a gamepad key!");
+            return;
+        }
+        if (IsKeyboardKey(key))
+            kb.AddAction(action, (int)key);
+        else
+            Debug.LogWarning("Can't add " + KeyToString(key) + " to a keyboard controller because it's not a keyboard key!");
+        if (IsGamepadKey(key))
+            gp.AddAction(action, (int)ConvertToGeneralGamepadKey(key));
+        else
+            Debug.LogWarning("Can't add " + KeyToString(key) + " to a gamepad controller because it's not a gamepad key!");
+    }
+
+    public static void AddInputsAction(string action, InputKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        foreach (InputKey key in keys)
+        {
+            AddInputAction(action, key, controller, defaultConfig);
+        }
+    }
+
+    public static void AddInputsActions(string[] actions, InputKey[] keys, BaseController baseController, bool defaultConfig = false)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], baseController, defaultConfig);
+        }
+    }
+
+    public static void AddInputAction(string action, KeyboardKey key, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputAction(action, key, defaultConfig);
+    }
+
+    public static void AddInputsAction(string action, KeyboardKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsAction(action, keys, defaultConfig);   
+    }
+
+    public static void AddInputsActions(string[] actions, KeyboardKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsActions(actions, keys, defaultConfig);
+    }
+
+    public static void AddInputAction(string action, GamepadKey key, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputAction(action, key, defaultConfig);
+    }
+
+    public static void AddInputsAction(string action, GamepadKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsAction(action, keys, defaultConfig);
+    }
+
+    public static void AddInputsActions(string[] actions, GamepadKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsActions(actions, keys, defaultConfig);
+    }
+
+    public static void AddInputAction(string action, GeneralGamepadKey key, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputAction(action, key, defaultConfig);
+    }
+
+    public static void AddInputsAction(string action, GeneralGamepadKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsAction(action, keys, defaultConfig);
+    }
+
+    public static void AddInputsActions(string[] actions, GeneralGamepadKey[] keys, BaseController controller, bool defaultConfig = false)
+    {
+        AddInputsActions(actions, keys, defaultConfig);
     }
 
     /// <summary>
@@ -2678,6 +2590,20 @@ public static class InputManager
         }
     }
 
+    public static void AddInputsActions(string[] actions, InputKey[] keys, PlayerIndex player)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], player);
+        }
+    }
+
     public static void AddInputAction(string action, KeyCode key, PlayerIndex player)
     {
         AddInputAction(action, (InputKey)key, player);
@@ -2688,6 +2614,20 @@ public static class InputManager
         foreach (InputKey key in keys)
         {
             AddInputAction(action, key, player);
+        }
+    }
+
+    public static void AddInputsActions(string[] actions, KeyCode[] keys, PlayerIndex player)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], player);
         }
     }
 
@@ -2704,6 +2644,20 @@ public static class InputManager
         }
     }
 
+    public static void AddInputsActions(string[] actions, KeyboardKey[] keys, PlayerIndex player)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], keys[i], player);
+        }
+    }
+
     public static void AddInputAction(string action, GamepadKey key, PlayerIndex player)
     {
         AddInputAction(action, (InputKey)key, player);
@@ -2717,199 +2671,44 @@ public static class InputManager
         }
     }
 
-    private static InputKey ConvertToGeneralGamepadKey(InputKey key)
-    {
-        int key2 = (int)key;
-        if(key2 < 0 && key2 >= -56)
-            return (InputKey)(key2 - ((key2 / 14) * 14));
-        if(key2 >= 350)
-            return (InputKey)(key2 - (((key2 - 350) / 20) * 20));
-        return key;
-    }
-
-    public static bool IsGamepadKey(InputKey key)
-    {
-        int key2 = (int)key;
-        return key2 <= 0 || key2 >= 330;
-    }
-
-    public static bool IsKeyboardKey(InputKey key) => !IsGamepadKey(key) || key == InputKey.None;
-
-    public static bool IsGeneralGamepadKey(InputKey key)
-    {
-        int k = (int)key;
-        return k <= -57 || (k >= 0 && k <= 349);
-    }
-
-    public static void AddInputAction(string action, InputKey key, BaseController controller, bool defaultConfig = false)
-    {
-        InputData kb = defaultConfig ? defaultKBKeys : kbKeys;
-        InputData gp = defaultConfig ? defaultGPKeys : gpKeys;
-
-        if(controller == BaseController.Keyboard)
-        {
-            if(IsKeyboardKey(key))
-                kb.AddAction(action, (int)key);
-            else
-                Debug.LogWarning("Can't add " + KeyToString(key) + " to a keyboard controller because it's not a keyboard key!");
-            return;
-        }
-        if(controller == BaseController.Gamepad)
-        {
-            if(IsGamepadKey(key))
-                gp.AddAction(action, (int)ConvertToGeneralGamepadKey(key));
-            else
-                Debug.LogWarning("Can't add " + KeyToString(key) + " to a gamepad controller because it's not a gamepad key!");
-            return;
-        }
-        if (IsKeyboardKey(key))
-            kb.AddAction(action, (int)key);
-        if (IsGamepadKey(key))
-            gp.AddAction(action, (int)ConvertToGeneralGamepadKey(key));
-    }
-
-    public static void AddInputsAction(string action, InputKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        foreach (InputKey key in keys)
-        {
-            AddInputAction(action, key, controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputAction(string action, KeyboardKey key, BaseController controller, bool defaultConfig = false)
-    {
-        AddInputAction(action, (InputKey)key, controller, defaultConfig);
-    }
-
-    public static void AddInputsAction(string action, KeyboardKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        foreach (InputKey key in keys)
-        {
-            AddInputAction(action, key, controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputAction(string action, GamepadKey key, BaseController controller, bool defaultConfig = false)
-    {
-        AddInputAction(action, (InputKey)key, controller, defaultConfig);
-    }
-
-    public static void AddInputsAction(string action, GamepadKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        foreach (InputKey key in keys)
-        {
-            AddInputAction(action, key, controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputAction(string action, GeneralGamepadKey key, BaseController controller, bool defaultConfig = false)
-    {
-        AddInputAction(action, (InputKey)key, controller, defaultConfig);
-    }
-
-    public static void AddInputsAction(string action, GeneralGamepadKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        foreach (InputKey key in keys)
-        {
-            AddInputAction(action, key, controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, InputKey[] keys, PlayerIndex player)
+    public static void AddInputsActions(string[] actions, GamepadKey[] keys, PlayerIndex player)
     {
         if (actions.Length != keys.Length)
         {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
+            return;
+        }
+
+        for (int i = 0; i < actions.Length; i++)
+        {
+            AddInputAction(actions[i], (InputKey)keys[i], player);
+        }
+    }
+
+    public static void AddInputAction(string action, GeneralGamepadKey key, PlayerIndex player)
+    {
+        AddInputAction(action, (InputKey)key, player);
+    }
+
+    public static void AddInputsAction(string action, GeneralGamepadKey[] keys, PlayerIndex player)
+    {
+        foreach (InputKey key in keys)
+        {
+            AddInputAction(action, key, player);
+        }
+    }
+
+    public static void AddInputsActions(string[] actions, GeneralGamepadKey[] keys, PlayerIndex player)
+    {
+        if (actions.Length != keys.Length)
+        {
+            Debug.LogWarning("actions and keys must have the same length! actions.length : " + actions.Length + " , keys.Length : " + keys.Length);
             return;
         }
 
         for (int i = 0; i < actions.Length; i++)
         {
             AddInputAction(actions[i], keys[i], player);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, KeyCode[] keys, PlayerIndex player)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < keys.Length; i++)
-        {
-            AddInputAction(actions[i], (InputKey)keys[i], player);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, KeyboardKey[] keys, PlayerIndex player)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < keys.Length; i++)
-        {
-            AddInputAction(actions[i], (InputKey)keys[i], player);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, GamepadKey[] keys, PlayerIndex player)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < keys.Length; i++)
-        {
-            AddInputAction(actions[i], (InputKey)keys[i], player);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, InputKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < actions.Length; i++)
-        {
-            AddInputAction(actions[i], keys[i], controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, KeyboardKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < actions.Length; i++)
-        {
-            AddInputAction(actions[i], (InputKey)keys[i], controller, defaultConfig);
-        }
-    }
-
-    public static void AddInputActions(string[] actions, GamepadKey[] keys, BaseController controller, bool defaultConfig = false)
-    {
-        if (actions.Length != keys.Length)
-        {
-            Debug.LogWarning("actions and keys haven't the same length! actions.Length : " + actions.Length + " keys.Lenght : " + keys.Length);
-            return;
-        }
-
-        for (int i = 0; i < actions.Length; i++)
-        {
-            AddInputAction(actions[i], (InputKey)keys[i], controller, defaultConfig);
         }
     }
 
@@ -3147,6 +2946,42 @@ public static class InputManager
 
     #endregion
 
+    public static bool ActionExist(string action, PlayerIndex playerIndex)
+    {
+        switch (playerIndex)
+        {
+            case PlayerIndex.One:
+                return player1Keys.Contain(action);
+            case PlayerIndex.Two:
+                return player2Keys.Contain(action);
+            case PlayerIndex.Three:
+                return player3Keys.Contain(action);
+            case PlayerIndex.Four:
+                return player4Keys.Contain(action);
+            case PlayerIndex.Five:
+                return player5Keys.Contain(action);
+            case PlayerIndex.All:
+                return player1Keys.Contain(action) && player2Keys.Contain(action) && player3Keys.Contain(action) && player4Keys.Contain(action) && player5Keys.Contain(action);
+            default:
+                return false;
+        }
+    }
+
+    public static bool ActionExist(string action, BaseController baseController, bool defaultConfig = false)
+    {
+        switch (baseController)
+        {
+            case BaseController.Keyboard:
+                return defaultConfig ? defaultKBKeys.Contain(action) : kbKeys.Contain(action);
+            case BaseController.Gamepad:
+                return defaultConfig ? defaultGPKeys.Contain(action) : gpKeys.Contain(action);
+            case BaseController.KeyboardAndGamepad:
+                return defaultConfig ? (defaultKBKeys.Contain(action) && defaultGPKeys.Contain(action)) : (kbKeys.Contain(action) && gpKeys.Contain(action));
+            default:
+                return false;
+        }
+    }
+
     public static void ClearAll()
     {
         ClearAllController();
@@ -3358,7 +3193,7 @@ public static class InputManager
     /// </summary>
     /// <param name="player"></param>
     /// <param name="controller"></param>
-    public static void SetController(PlayerIndex player, BaseController controller)
+    public static void SetCurrentController(PlayerIndex player, BaseController controller)
     {
         InputData inputs = null;
         switch (controller)
@@ -3405,7 +3240,23 @@ public static class InputManager
         }
     }
 
-    public static void SetControllerForGamepad(PlayerIndex player, ControllerType gamepadIndex)
+    public static void SetCurrentController(BaseController controller)
+    {
+        if(controller == BaseController.Keyboard)
+        {
+            kbKeys = defaultKBKeys.Clone();
+            return;
+        }
+        if(controller == BaseController.Gamepad)
+        {
+            gpKeys = defaultGPKeys.Clone();
+            return;
+        }
+        kbKeys = defaultKBKeys.Clone();
+        gpKeys = defaultGPKeys.Clone();
+    }
+
+    public static void SetCurrentControllerForGamepad(PlayerIndex player, ControllerType gamepadIndex)
     {
         if (gamepadIndex == ControllerType.All || gamepadIndex == ControllerType.GamepadAll)
         {
@@ -3918,6 +3769,42 @@ public static class InputManager
 
     #region Useful region
 
+    public static bool IsConfigurationEmpty(PlayerIndex playerIndex)
+    {
+        switch (playerIndex)
+        {
+            case PlayerIndex.One:
+                return player1Keys.IsEmpty();
+            case PlayerIndex.Two:
+                return player2Keys.IsEmpty();
+            case PlayerIndex.Three:
+                return player3Keys.IsEmpty();
+            case PlayerIndex.Four:
+                return player4Keys.IsEmpty();
+            case PlayerIndex.Five:
+                return player5Keys.IsEmpty();
+            case PlayerIndex.All:
+                return player1Keys.IsEmpty() && player2Keys.IsEmpty() && player3Keys.IsEmpty() && player4Keys.IsEmpty() && player5Keys.IsEmpty();
+            default:
+                return true;
+        }
+    }
+
+    public static bool IsConfigurationEmpty(BaseController baseController, bool defaultConfig = false)
+    {
+        switch (baseController)
+        {
+            case BaseController.Keyboard:
+                return defaultConfig ? defaultKBKeys.IsEmpty() : kbKeys.IsEmpty();
+            case BaseController.Gamepad:
+                return defaultConfig ? defaultGPKeys.IsEmpty() : gpKeys.IsEmpty();
+            case BaseController.KeyboardAndGamepad:
+                return defaultConfig? (defaultKBKeys.IsEmpty() && defaultGPKeys.IsEmpty()) : (kbKeys.IsEmpty() && gpKeys.IsEmpty());
+            default:
+                return true;
+        }
+    }
+
     /// <param name="direction"> the direction of the mousewheel return by the function </param>
     /// <returns> true during the frame where the mouse wheel is moved.</returns>
     public static bool MouseWheel(out MouseWheelDirection direction)
@@ -4023,7 +3910,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -14; i <= -1; i++)
+                for (int i = -15; i <= -1; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4045,7 +3932,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -28; i <= -15; i++)
+                for (int i = -30; i <= -16; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4066,7 +3953,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -42; i <= -29; i++)
+                for (int i = -45; i <= -31; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4087,7 +3974,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -56; i <= -43; i++)
+                for (int i = -60; i <= -46; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4109,7 +3996,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -70; i <= 0; i++)
+                for (int i = -75; i <= 0; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4128,7 +4015,7 @@ public static class InputManager
                         return true;
                     }
                 }
-                for (int i = -70; i <= 0; i++)
+                for (int i = -75; i <= 0; i++)
                 {
                     if(GetNegativeKeyDown(i))
                     {
@@ -4170,7 +4057,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -14; i <= -1; i++)
+                for (int i = -15; i <= -1; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4188,7 +4075,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -28; i <= -15; i++)
+                for (int i = -30; i <= -16; i++)
                     {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4206,7 +4093,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -42; i <= -29; i++)
+                for (int i = -45; i <= -31; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4224,7 +4111,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -56; i <= -43; i++)
+                for (int i = -60; i <= -46; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4242,7 +4129,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -70; i <= 0; i++)
+                for (int i = -75; i <= 0; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4258,7 +4145,7 @@ public static class InputManager
                         res.Add((InputKey)keyCodeInt[i]);
                     }
                 }
-                for (int i = -70; i <= 0; i++)
+                for (int i = -75; i <= 0; i++)
                 {
                     if (GetNegativeKeyDown(i))
                     {
@@ -4335,7 +4222,6 @@ public static class InputManager
         oldGP2State = newGP2State;
         oldGP3State = newGP3State;
         oldGP4State = newGP4State;
-        SetOldGamepadSticksAndTriggersPositions();
         newGP1State = GamePad.GetState(XInputDotNetPure.PlayerIndex.One);
         newGP2State = GamePad.GetState(XInputDotNetPure.PlayerIndex.Two);
         newGP3State = GamePad.GetState(XInputDotNetPure.PlayerIndex.Three);
@@ -4446,6 +4332,125 @@ public static class InputManager
         }
 
         public VibrationSetting Clone() => new VibrationSetting(gamepadIndex, duration, rightIntensity, leftIntensity);
+    }
+
+    #endregion
+
+    #region Save
+
+    private static class Save
+    {
+        /// <summary>
+        /// Convert any Serializable object in JSON string.
+        /// </summary>
+        /// <param name="obj">The object to serialize</param>
+        /// <returns> A string represent the object in parameter</returns>
+        public static string ConvertObjectToJSONString(object obj, bool withIndentation = false) => JsonUtility.ToJson(obj, withIndentation);
+        /// <summary>
+        /// Convert any string reprensent a Serializable object to the object.
+        /// </summary>
+        /// <typeparam name="T">The type of the object return</typeparam>
+        /// <param name="JSONString">The string represent the object return</param>
+        /// <returns> A Serializable object describe by the string in parameter</returns>
+        public static T ConvertJSONStringToObject<T>(string JSONString) => JsonUtility.FromJson<T>(JSONString);
+
+        /// <summary>
+        /// Write in the customer machine a file with the object inside
+        /// </summary>
+        /// <param name="objToWrite">The object to save</param>
+        /// <param name="filename">the save path, begining to the game's folder</param>
+        /// <returns> true if the save complete successfully, false overwise</returns>
+        public static bool WriteJSONData(object objToWrite, string fileName, bool withIndentation = false)
+        {
+            try
+            {
+                string s = ConvertObjectToJSONString(objToWrite, withIndentation);
+                if (s == "{}")
+                    return false;
+                File.WriteAllText(fileName, s);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+
+        /// <summary>
+        /// Write in the customer machine a file with the object inside asynchronously
+        /// </summary>
+        /// <param name="objToWrite">The object to save</param>
+        /// <param name="filename">the save path, begining to the game's folder</param>
+        /// <param name="callback">The callback when the function end</param>
+        /// <returns> true if the save complete successfully, false overwise</returns>
+        public static async Task<bool> WriteJSONDataAsync(object objToWrite, string fileName, Action<bool> callback, bool withIndentation = false)
+        {
+            try
+            {
+                string s = ConvertObjectToJSONString(objToWrite, withIndentation);
+                if (s == "{}")
+                {
+                    callback.Invoke(false);
+                    return false;
+                }
+                await File.WriteAllTextAsync(fileName, s);
+                callback.Invoke(true);
+            }
+            catch
+            {
+                callback.Invoke(false);
+                return false;
+            }
+            return true;
+        }
+
+        /// <typeparam name="T">The object to read's type</typeparam>
+        /// <param name="fileName">The path of the file, begining to the game's folder</param>
+        /// <param name="objRead"></param>
+        /// <returns> true if the function complete successfully, false overwise</returns>
+        public static bool ReadJSONData<T>(string fileName, out T objRead)
+        {
+            try
+            {
+                string jsonString = File.ReadAllText(fileName);
+                if (jsonString == "{}")
+                {
+                    objRead = default(T);
+                    return false;
+                }
+                objRead = ConvertJSONStringToObject<T>(jsonString);
+                return true;
+            }
+            catch (Exception)
+            {
+                objRead = default(T);
+                return false;
+            }
+        }
+
+        /// <typeparam name="T">The object to read's type</typeparam>
+        /// <param name="fileName">The path of the file, begining to the game's folder</param>
+        /// <param name="objRead"></param>
+        /// <returns> true if the function complete successfully, false overwise</returns>
+        public static async Task<bool> ReadJSONDataAsync<T>(string fileName, Action<bool, T> callback)
+        {
+            try
+            {
+                string jsonString = await File.ReadAllTextAsync(fileName);
+                if (jsonString == "{}")
+                {
+                    callback.Invoke(false, default(T));
+                    return false;
+                }
+                callback.Invoke(true, ConvertJSONStringToObject<T>(jsonString));
+                return true;
+            }
+            catch (Exception)
+            {
+                callback.Invoke(false, default(T));
+                return false;
+            }
+        }
     }
 
     #endregion

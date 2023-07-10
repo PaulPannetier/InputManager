@@ -5,7 +5,7 @@ public class ExampleAdvanced : MonoBehaviour
     private void Start()
     {
         //One of the main feature is to create inputs configurations. Configurations are flexibles, modifiables at runtime and you can save it in the game folder.
-        //A configuration in compose by string that represent an action link to a list of InputKey
+        //A configuration is composed by string that represent an action link to a list of InputKey.
         //They are 7 configurations, a keyboard config, a gamepad config and a config for the player1 to the player5.
         //They are 2 other config, the default keyboard config, and the default gamepad config.
         //Some examples to understand
@@ -13,10 +13,10 @@ public class ExampleAdvanced : MonoBehaviour
         //add the action "Jump" link to the space button to the current keyboard config
         //the "Jump" action is store in the current keyboard controller
         InputManager.AddInputAction("Jump", InputKey.Space, BaseController.Keyboard);
-        //now, to trigger the jump action, we can to the Update function this condition
+        //now, to trigger the jump action, we can add to the Update function this condition
         if (InputManager.GetKeyDown("Jump", BaseController.Keyboard))
         {
-            //Trigger is space is pressed down.
+            //Trigger if space is pressed down.
         }
 
         //A single action can be link to multiples inputs.
@@ -46,7 +46,60 @@ public class ExampleAdvanced : MonoBehaviour
             //The condition below will never trigger because the "Fly" action is store in the default Keyboard config
         }
 
+        //you can change/delete action
+        if(InputManager.ActionExist("Fly", BaseController.Keyboard))
+        {
+            InputManager.ReplaceAction("Fly", InputKey.K, BaseController.Keyboard);
+            InputManager.RemoveAction("Fly", BaseController.Keyboard);
+        }
 
+        //The main interest of the default config is to be set one time during the game developement and store on the game folder, load when the game is launch by the player the default config
+        // and finnally set the default config as the current one is the player have not register his custom configuration yet.
+        
+        //To save the config to a file, use the save config function
+        if(false && InputManager.SaveConfiguration(Application.dataPath + "/myInputsConfig.inputs"))
+        {
+            //the false && at the beg of the condition is here to avoid creating unexpeted file just for this simple example :p
+            //Application.dataPath is the path to the assets folder when game run in editor.
+            //The SaveConfiguration function save the current and default configuration, and also the deadzone (see below).
+            //It return true if the config was saved succesfully, false otherwise
+            //InputManager.SaveConfigurationAsync() do the same thing but asynchronously to avoid game freezing.
+            print("Config saved at : " + Application.dataPath + "/myInputsConfig.inputs");
+        }
+        
+        //you can load a pre-Saved configuration
+        if (InputManager.LoadConfiguration(Application.dataPath + "/myInputsConfig.inputs"))
+        {
+            print("Config saved at : " + Application.dataPath + "/myInputsConfig.inputs is loaded");
+            //InputManager.LoadConfigurationAsync() do the same thing asynchronously.
+        }
+
+        //You can verify is a current config is loaded, if not, set the current confi as the default one.
+        if(InputManager.IsConfigurationEmpty(BaseController.Keyboard))
+        {
+            // set the current confi as the default one.
+            InputManager.SetCurrentController(BaseController.Keyboard);
+            //Or set a player config as the default one.
+            InputManager.SetCurrentController(PlayerIndex.One, BaseController.Keyboard);
+        }
+
+        //Advice : you can put GeneralGamepadKey in the default gamepad config, save this config and when you load it
+        //you can convert the General gamepad config to a specific gamepad config
+        //Here an example
+        GeneralGamepadKey[] gpKeys = new GeneralGamepadKey[3] { GeneralGamepadKey.GPL1, GeneralGamepadKey.GPBack, GeneralGamepadKey.GPB };
+        string[] action = new string[3] { "Fire", "Reload", "UseItem" };
+        InputManager.AddInputsActions(action, gpKeys, BaseController.Gamepad, true);//Add 3 actions link to a single key to the default gamepad controller.
+        if(false && InputManager.SaveDefaultConfiguration(Application.dataPath + "/myInputsConfig2.inputs"))
+        {
+            //the false && at the beg of the condition is here to avoid creating unexpeted file just for this simple example :p
+            print("Default Config saved at : " + Application.dataPath + "/myInputsConfig2.inputs");
+        }
+
+        //Now load the default config save just before and set the player1 config to the default were the player1 is playing with the first gamepad controller
+        if(InputManager.LoadDefaultControllerConfiguration(Application.dataPath + "/myInputsConfig2.inputs"))
+        {
+            InputManager.SetCurrentControllerForGamepad(PlayerIndex.One, ControllerType.Gamepad1);
+        }
 
         //you can modify the deadzone of the two thumbsticks and triggers for the 4 gamepad controller
         //The deadzone of a thumbstick define a zone of the thumbstick where position are ignore.
